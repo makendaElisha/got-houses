@@ -30,8 +30,6 @@ const Details:React.FC<Props> = ({houses}) => {
         'tyrell',
     ];
 
-    console.log(images[Math.floor(Math.random()*images.length)])
-
     useEffect(() => {
         const currentHouse = houses 
             ? houses.find(hs => {
@@ -44,7 +42,7 @@ const Details:React.FC<Props> = ({houses}) => {
     }, [])
 
     return (
-        <div className='top-spacing'>
+        <div className='top-spacing' data-testid="house-detail">
             <Typography color="primary" variant="h3">
                 {house ? house.name : ''}
             </Typography>

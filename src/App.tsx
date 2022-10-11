@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import useFetch from './useFetch';
 import Loader from './components/Loader';
 import './App.css';
@@ -23,11 +22,6 @@ function App() {
         <Route path="/" element={<Home houses={houses} />}/>
         <Route path="/house/:id" element={<Details houses={houses}/>}/>
       </Routes>
-      
-      {/* <h1>Game Of Throne Houses</h1>
-
-      <HousesList houses={houses} /> */}
-
     </div>
   );
 }

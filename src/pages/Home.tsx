@@ -22,7 +22,7 @@ interface Props {
   
 const Home:React.FC<Props> = ({houses}) => {
     return (
-        <div style={{marginTop: '20px'}}>
+        <div style={{marginTop: '20px'}} data-testid="houses-list">
             <Typography gutterBottom variant="h3" component="div">
                 Game Of Throne Houses
             </Typography>
@@ -32,8 +32,8 @@ const Home:React.FC<Props> = ({houses}) => {
                     <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                         {houses && houses.map(house => {
                             return (
-                                <Grid item xs={4}>
-                                    <House house={house}/>
+                                <Grid item xs={4} key={house.url}>
+                                    <House house={house} />
                                 </Grid>
                             );
                         })}
