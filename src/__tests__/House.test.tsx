@@ -10,7 +10,7 @@ afterEach(() => {
 test('should render house component', () => {
     let house: HouseType = {
         id: 1,
-        url: 'api/1',
+        url: 'api/houses/1',
         region: 'some region',
         name: 'house name',
         coatOfArms: 'list of arms',

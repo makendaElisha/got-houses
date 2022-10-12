@@ -19,8 +19,10 @@ To get started with the project, make sure that you have ```Node``` installed on
 
 ## Testing
 
-For testing, the app uses Jest which is shipped with React and to run the tests use the following command: 
+For testing, the app uses Jest which is shipped with React and to run the tests use the following command(You should see all tests passing like in the image below): 
 
 ```bash 
-- npm run test
+- npm test .
 ```
+
+![success result](../Test.PNG)
