@@ -29,4 +29,4 @@ For testing, the app uses Jest which is shipped with React and to run the tests 
 
 ## Improvements
 Because of time constraints, we didn't implement a few other features that we planned for this project. Those features include but not limited to:
-improve responsiveness (for mobile and tablet), improve UI and some reusability.
+improve responsiveness (for mobile and tablet), improve UI and some reusability, custom 404 page to handle page not found.
