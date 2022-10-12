@@ -19,8 +19,14 @@ To get started with the project, make sure that you have ```Node``` installed on
 
 ## Testing
 
-For testing, the app uses Jest which is shipped with React and to run the tests use the following command: 
+For testing, the app uses Jest which is shipped with React and to run the tests use the following command (You should see the result as in the image below): 
 
 ```bash 
 - npm test .
 ```
+![Test](https://user-images.githubusercontent.com/36261399/195440882-4a029f24-6d67-4ee3-82a3-36940f0929ed.PNG)
+
+
+## Improvements
+Because of time constraints, we didn't implement a few other features that we planned for this project. Those features include but not limited to:
+improve responsiveness (for mobile and tablet), improve UI and some reusability.
