@@ -5,7 +5,7 @@ GOT Houses is an app that gets all the houses of Game of Thrones from the api ``
 
 ## Tech Stack
 
-React JS, Material UI
+React JS, Typescript, Material UI
 
 ## Installation and getting started
 To get started with the project, make sure that you have ```Node``` installed on your machine and run the following commands:
